@@ -1,4 +1,9 @@
 @extends('layouts.main-layouts')
+@include('layouts.navigation')
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        
 @section('container')
     @if (session('success'))
         <div class="alert-success">
